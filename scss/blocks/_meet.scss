@@ -1,0 +1,31 @@
+.meet {
+  text-align: center;
+  margin-bottom: 64px;
+  color: #79c8c7;
+}
+.meet-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.meet-item-wrapper {
+  padding: 32px 0 56px;
+  background-color: #012f34;
+  width: 33%;
+}
+.meet-item {
+  text-align: center;
+  gap: 300px;
+}
+.meet-item > p {
+  color: white;
+}
+.meet-item > h3 {
+  color: #79c8c7;
+}
+.meet-info {
+  display: flex;
+  margin-left: 80px;
+  width: 252px;
+}

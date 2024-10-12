@@ -1,0 +1,48 @@
+.end-section {
+  display: flex;
+  align-items: start;
+  margin: 0 auto;
+  color: white;
+  background-color: #002529;
+  padding: 48px 0;
+}
+.end-section-wrapper {
+  text-align: start;
+  display: inline-block;
+}
+.end-section-wrapper > a ~ a {
+  margin-left: 40px;
+}
+.end-section-wrapper > a:hover {
+  color: #f67e7e;
+}
+.end-section-wrapper > a {
+  color: white;
+}
+.del-margin {
+  display: inline-block;
+  text-align: start;
+}
+.del-margin > p {
+  width: 175px;
+  margin-right: 540px;
+  margin-left: 125px;
+  opacity: 60%;
+}
+.img-links {
+  display: inline-block;
+  margin-top: -50px;
+}
+.end-img-wrapper {
+  color: white;
+}
+.end-img-wrapper svg{
+    transition: all 0.4s;
+}
+.end-img-wrapper > svg:hover {
+  color: #f67e7e;
+}
+.footer {
+  display: flex;
+  align-items: center;
+}

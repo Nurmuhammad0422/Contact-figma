@@ -1,0 +1,35 @@
+.ready-section {
+  display: flex;
+  background-color: #f67e7e;
+  align-items: center;
+  background-image: url("../images/hero-bg6.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 150px;
+}
+.ready {
+  display: flex;
+  padding: 76px 0 76px;
+  align-items: center;
+}
+.ready-section > div > div > h2 {
+  display: inline-block;
+  margin-left: 263px;
+  margin-right: 413px;
+}
+.ready-section > div > div > div > a {
+  width: 150px;
+  padding: 9px 33px 11px;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  transition: all 0.3s;
+}
+.ready-section > div > div > div > a:hover {
+  background-color: black;
+  color: white;
+}
