@@ -12,12 +12,13 @@
   padding: 76px 0 76px;
   align-items: center;
 }
-.ready-section > div > div > h2 {
+.ready h2 {
   display: inline-block;
-  margin-left: 263px;
-  margin-right: 413px;
+  text-align: center;
+  margin-left: 203px;
+  margin-right: 260px;
 }
-.ready-section > div > div > div > a {
+.ready a {
   width: 150px;
   padding: 9px 33px 11px;
   border: 2px solid black;
@@ -32,4 +33,19 @@
 .ready-section > div > div > div > a:hover {
   background-color: black;
   color: white;
+}
+@media (max-width:915px){
+  .ready h2 {
+    margin-left: 97px;
+    margin-right: 84px;
+  }
+}
+@media (max-width: 631px){
+  .ready{
+    flex-direction: column;
+  }
+  .ready h2{
+    max-width: 250px;
+    margin-bottom: 24px;
+  }
 }
